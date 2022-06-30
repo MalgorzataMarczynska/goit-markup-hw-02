@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-HTML homework no.1 GoIT full stack developer course
+# goit-markup-hw-02
+HTML homework no.2 GoIT full stack developer course
