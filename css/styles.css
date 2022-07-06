@@ -23,7 +23,7 @@ body {
 .black {
   color: #000;
 }
-header a {
+.navigation a {
   text-decoration: none;
 }
 .navigation {
@@ -66,21 +66,21 @@ header a {
   color: var(--background-color);
 }
 .main-button {
-  color: #fff;
+  color: var(--brand-color);
+  background-color: #f5f4fa;
   font-family: 'Roboto', 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-align: center;
   letter-spacing: 6%;
-  background-color: var(--checkmark-color);
   cursor: pointer;
 }
 .main-button:hover,
 .main-button:focus {
-  color: var(--checkmark-color);
-  background-color: #fff;
+  background-color: var(--checkmark-color);
+  color: #fff;
 }
-h3 {
+.description-title {
   font-weight: 700px;
 }
 
@@ -92,7 +92,7 @@ h3 {
   color: #757575;
   width: 270px;
 }
-h2 {
+.section-title {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
@@ -120,18 +120,18 @@ h2 {
   text-align: center;
   color: #757575;
 }
-footer {
+.contact-data {
   background-color: #2f303a;
   width: 1600px;
   height: 252px;
 }
-footer a {
+.contact-data a {
   text-decoration: none;
 }
 .white {
   color: #fff;
 }
-address {
+.work-place {
   color: #fff;
   font-style: normal;
 }
