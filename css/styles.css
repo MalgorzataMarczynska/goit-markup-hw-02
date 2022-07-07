@@ -66,20 +66,20 @@ body {
   color: var(--background-color);
 }
 .main-button {
-  color: var(--brand-color);
-  background-color: #f5f4fa;
+  color: #fff;
+  background-color: var(--checkmark-color);
   font-family: 'Roboto', 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-align: center;
   letter-spacing: 6%;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-.main-button:hover,
-.main-button:focus {
-  background-color: var(--checkmark-color);
-  color: #fff;
-}
+
 .description-title {
   font-weight: 700px;
 }
@@ -155,7 +155,13 @@ body {
   text-align: center;
   color: var(--brand-color);
   background-color: #f5f4fa;
+  width: 93px;
+  height: 38px;
   border: #f5f4fa;
+  border-radius: 4px;
+}
+.all {
+  width: 121px;
 }
 .button-filters:hover,
 .button-filters:focus {
